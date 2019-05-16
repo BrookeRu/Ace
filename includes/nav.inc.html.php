@@ -1,8 +1,19 @@
-<nav>
+    <div class="menu"> 
+    
     <ul>
-        <li><a href="<?php echo BASE_URL; ?>index">Home</a></li>
+        <li><a href="<?php echo BASE_URL; ?>">Home</a></li>
         <li><a href="<?php echo BASE_URL; ?>eventInfo">Event Info</a></li>
-        <li><a href="<?php echo BASE_URL; ?>register">Register</a></li>
+        <li><a href="<?php echo BASE_URL; ?>registration">Registration</a></li>
         <li><a href="<?php echo BASE_URL; ?>contact">Contact</a></li>
-    </ul>
-</nav>
+        
+        </ul>
+            
+    </div>
+       
+<div class="tablet"> 
+    
+        <li><a href="<?php echo BASE_URL; ?>">Home</a></li>
+        <li><a href="<?php echo BASE_URL; ?>eventInfo">Event Info</a></li>
+        <li><a href="<?php echo BASE_URL; ?>registration">Registration</a></li>
+        <li><a href="<?php echo BASE_URL; ?>contact">Contact</a></li>
+    </div> 

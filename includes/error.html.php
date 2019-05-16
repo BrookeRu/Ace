@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,6 +8,6 @@
   <body>
     <p>
       <?php echo $error; ?>
-    </p>
-  </body>
+</p>
+</body>
 </html>

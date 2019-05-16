@@ -1,4 +1,14 @@
+<?php define('SITE_URL', '/cas222/ace_'); ?>
 
-<?php define('BASE_URL', '/cas222/ace/'); ?>
-    <img src="<?php echo BASE_URL; ?>../images/bigPlaceholder.jpg" alt="Ace Logo" width="1000" height="275">
+<header>
+    
+    <?php echo "<h1> Ace In The Hole<br>Multisport Events </h1>"; ?>
+           
+</header>
 
+<div class="desktop">
+    
+    <button class="hamburger">&#9776;</button>
+	<button class="cross">&#735;</button>
+        
+    </div> 
