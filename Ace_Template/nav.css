@@ -1,0 +1,51 @@
+
+nav {
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 10px;
+    align-items: center;
+    box-shadow: 2px 2px 5px #000000;
+    -moz-box-shadow: 2px 2px 5px #000000;
+    -webkit-box-shadow: 2px 2px 5px #000000;
+    -o-box-shadow: 2px 2px 5px #000000;
+    z-index: 1;
+}
+
+nav ul {
+  text-align: center;
+}
+nav ul li {
+    height: 2.45em;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+    float: left;
+    display: table;
+}
+nav ul li:first-child {
+  line-height: 2.25;
+}
+nav ul li a {
+  background: -moz-linear-gradient(to bottom, @color4, @color2);
+  background: -webkit-linear-gradient(to bottom, @color4, @color2);
+  background: -o-linear-gradient(to bottom, @color4, @color2);
+  background: -ms-linear-gradient(to bottom, @color4, @color2);
+  background: linear-gradient(to bottom, @color4, @color2);
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+nav ul li a:link {
+  color: @color1;
+}
+nav ul li a:hover {
+  color: @darkColor1;
+}
+nav ul li a:visited {
+  color: @color2;
+} 

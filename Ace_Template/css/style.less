@@ -1,0 +1,408 @@
+/*
+File Name: style.css
+Date: 05/24/18
+Programmer: Brooke Roberts
+*/
+
+@import 'palette.less';
+@import 'mixins.less';
+
+/* MOBILE STYLESHEET */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: @color4;
+  font-size: 16px;
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    color: @color3;
+    padding-bottom: 1.0em;
+}
+header .tablet {
+    display: none;
+}
+
+nav {
+    font-size: 1.25em;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    top: 10px;
+    align-items: center;
+    box-shadow: 2px 2px 5px #000000;
+    -moz-box-shadow: 2px 2px 5px #000000;
+    -webkit-box-shadow: 2px 2px 5px #000000;
+    -o-box-shadow: 2px 2px 5px #000000;
+    z-index: 1;
+}
+
+nav ul {
+  text-align: center;
+}
+nav ul li {
+    height: 2.45em;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+    float: left;
+    display: table;
+}
+nav ul li:first-child {
+  line-height: 2.25;
+}
+nav ul li a {
+  background: -moz-linear-gradient(to bottom, @color4, @color2);
+  background: -webkit-linear-gradient(to bottom, @color4, @color2);
+  background: -o-linear-gradient(to bottom, @color4, @color2);
+  background: -ms-linear-gradient(to bottom, @color4, @color2);
+  background: linear-gradient(to bottom, @color4, @color2);
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+nav ul li a:link {
+  color: @color1;
+}
+nav ul li a:hover {
+  color: @darkColor1;
+}
+nav ul li a:visited {
+  color: @color2;
+} 
+
+
+.hero_wrap {
+    height: 42.55319vw;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+    background-image: url(../images/bike-cycling-trail-cyclist-160949_thumb.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat no-repeat;
+}
+
+.hero_wrap2 {
+    height: 42.55319vw;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+    background-image:url(../images/pexels-photo-87831.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat no-repeat;
+}
+
+.hero_wrap3 {
+    height: 42.55319vw;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 1.5px;
+    background-image:url(https://brookeroberts.webhostingforstudents.com/cas215/assignment10/photos/calliope_in_hand.jpg);
+    background-size:auto;
+    background-position: left top;
+    background-repeat: no-repeat no-repeat;
+    
+}
+
+.hero_wrap4 {
+    height: 42.55319vw;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+    background-image:url(https://brookeroberts.webhostingforstudents.com/cas215/assignment10/photos/calliope_nest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+}
+
+.hero_wrap5 {
+    height: 42.55319vw;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+    background-image:url(https://brookeroberts.webhostingforstudents.com/cas215/assignment10/photos/calliope_flowers.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat no-repeat;
+}
+
+main {
+  color: black;
+}
+main h2 {
+  color: @color1;
+  margin-left: 8%;
+  font-size: 1.25em;
+  margin-bottom: .5em;
+}
+
+main section {
+  background-color: @color4;
+  padding: 1em 0;
+  background: @color2;
+  background: -moz-linear-gradient(to bottom, @color4, @color2);
+  background: -webkit-linear-gradient(to bottom, @color4, @color2);
+  background: -o-linear-gradient(to bottom, @color4, @color2);
+  background: -ms-linear-gradient(to bottom, @color4, @color2);
+  background: linear-gradient(to bottom, @color4, @color2);
+}
+main section:nth-child(odd) {
+  background: @color4;
+  background: -moz-linear-gradient(to bottom, @color4, @color2);
+  background: -webkit-linear-gradient(to bottom, @color4, @color2);
+  background: -o-linear-gradient(to bottom, @color4, @color2);
+  background: -ms-linear-gradient(to bottom, @color4, @color2);
+  background: linear-gradient(to bottom, @color4, @color2);
+}
+main p {
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.35em;
+}
+
+main p a:link {
+  color: @color1;
+}
+main p a:hover {
+  color: @darkColor2;
+}
+main p a:visited {
+  color: @color6;
+}
+footer {
+    background-color: @color4;
+    height: 5em;
+    width: 100%;
+    box-shadow: 0px 0px 7px #111111;
+    -moz-box-shadow: 0px 0px 7px #111111;
+    -webkit-box-shadow: 0px 0px 7px #111111;
+    -o-box-shadow: 0px 0px 7px #111111;
+    overflow: hidden;
+
+    section {
+        padding-top: 1em;
+        ul {
+            font-size: .85em;
+            text-align: center;
+            width: 100%;
+            li {
+                display: inline-block;
+                width: 20%;
+                a {
+
+                    &:link {
+                    
+                    }
+
+                    &:visited {
+                       
+                    }
+
+                    &:hover {
+                      
+                    }
+                }
+            }
+        }
+    } 
+    p {
+        color: @color2;
+        text-align: center;
+        padding-left: 1.5em;
+        padding-top: .75em;
+    }
+}
+    
+/* Hamburger menu */
+
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  color: #ffffff;
+  border: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10;
+  padding: 10px 20px 0px 15px;
+}
+.cross {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ffffff;
+  border: 0;
+  font-size: 3em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10;
+  padding: 15px 20px 0px 15px;
+}
+.menu {
+  z-index: 10;
+  font-weight: bold;
+  background: #f1f1f1;
+  position: absolute;
+  width: 60%;
+  top: 60px;
+  right: 0;
+  text-align: center;
+  font-size: 18px;
+}
+.menu ul {
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: block;
+  border-bottom: #ff0000 1px solid;
+  padding: 15px 0;
+}
+.menu li:hover {
+  display: block;
+  border-bottom: #b90504 1px solid;
+  padding: 15px 0;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.menu ul li a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+.menu a .menu a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.tablet {
+  display: none;
+}
+#honeypot {
+  display: none;
+}
+/*
+
+TABLET STYLESHEET
+
+The following CSS affects all screen sizes larger than 480 pixels wide.
+
+*/
+@media only screen and (min-width: 481px) {
+    header {
+        padding-top: 4em;
+    }
+  header h1 {
+        font-size: 3.5em;
+        top: .75em;
+  }
+  header img {
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+  footer p {
+        text-align: center;
+        line-height: 3em;
+        color: @color3;
+  }
+    .tablet {
+        display: inline-block;
+    }
+    .menu, .cross, .hamburger, .mobile {
+        display: none!important;
+    }
+    
+}
+/*
+
+DESKTOP STYLESHEET
+
+The following CSS affects all screen sizes larger than 1024 pixels wide.
+
+*/
+@media only screen and (min-width: 1025px) {
+  header {
+        padding-top: 4em;
+  }
+  header h1 {
+        font-size: 5.5em;
+        top: 1.45em;
+  }
+  header img {
+        width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+  }
+  main h2,
+  main h3 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 84%;
+  }
+  main h2,
+  main h3,
+  main p,
+  main img {
+        max-width: 1025px;
+  }
+  footer {
+        overflow: hidden;
+  }
+  footer p {
+        text-align: center;
+      font-weight: bold;
+        color: @color3;
+  }
+    }
