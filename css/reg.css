@@ -1,0 +1,87 @@
+text/css reg.css (ASCII text)
+/*
+Filename: reg.css
+Date: 06/12/19
+Programmer: Brooke Roberts
+*/
+
+
+input,
+textarea {
+    display: inline-block;
+    margin-bottom: 2em;
+    width: 3em;
+    height: 4em;
+}
+
+label {
+    clear: left;
+    float: left;
+    font-size: 1em;
+    margin-bottom: 1em;
+    padding-right: 10px;
+    text-align: right;
+    width: 150px;
+}
+
+
+table {
+    border: 2px solid #ffffff;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 650px;
+}
+
+td {
+    background-color: #ffffff;
+    border: 1px solid #0b344d;
+    color: #363636;
+    font-weight: bold;
+    font-family: Cinzel, Arial, serif;
+    font-size: .95em;
+    padding: .5em;
+    text-align: center;
+}
+
+th {
+    background-color: #0b344d;
+    color: #ffffff;
+    font-size: 1.15em;
+    font-weight: bold;
+    font-family: Cinzel, Arial, serif;
+    padding: .5em;
+    text-align: center;
+}
+
+
+#source {
+    font-size: .10em;
+    text-align: right;
+}
+
+#wrapper {
+    background-color: #ffffff;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#mysubmit {
+    margin-left: 150px;
+}
+
+.section registration {
+    align-content: left;
+    text-align: left;
+}
+
+
+p {
+    text-align: left;
+}
+
+.option {
+    align-content: center;
+    text-align: inherit;
+}

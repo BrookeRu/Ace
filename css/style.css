@@ -10,11 +10,31 @@ Programmer: Brooke Roberts
 /* MOBILE STYLESHEET */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #ffe08e;
+  background-color: #176c61;
   font-size: 16px;
+  font-weight: bold;
+}
+header {
+  text-align: center;
+  padding: 1.0em;
+}
+header h1 {
+  color: #ed0208;
+  font-size: 16px;
+  font-weight: 100;
+  text-shadow: 1px 1px black;
+}
+header p {
+  color: #fdb71f;
+  text-align: center;
+  line-height: 1.2em;
+}
+header .tablet {
+  display: none;
 }
 nav {
   font-size: 1.25em;
+  font-weight: bold;
   width: 100%;
   position: fixed;
   top: 10px;
@@ -30,7 +50,9 @@ nav ul {
 }
 nav ul li {
   height: 2.45em;
-  width: 33.3%;
+  text-align: center;
+  font-weight: bold;
+  width: 25%;
   float: left;
   display: table;
 }
@@ -38,11 +60,11 @@ nav ul li:first-child {
   line-height: 2.25;
 }
 nav ul li a {
-  background: -moz-linear-gradient(to bottom, #e0520a, #a62706);
-  background: -webkit-linear-gradient(to bottom, #e0520a, #a62706);
-  background: -o-linear-gradient(to bottom, #e0520a, #a62706);
-  background: -ms-linear-gradient(to bottom, #e0520a, #a62706);
-  background: linear-gradient(to bottom, #e0520a, #a62706);
+  background: -moz-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -webkit-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -o-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -ms-linear-gradient(to bottom, #176c61, #4edee5);
+  background: linear-gradient(to bottom, #176c61, #4edee5);
   text-decoration: none;
   display: block;
   height: 100%;
@@ -51,18 +73,13 @@ nav ul li a {
   vertical-align: middle;
 }
 nav ul li a:link {
-  color: #ffe08e;
+  color: #fdb71f;
 }
 nav ul li a:hover {
-  color: #ffc428;
+  color: #1aacb3;
 }
 nav ul li a:visited {
-  color: #ff981d;
-}
-header {
-  text-align: center;
-  color: #e0520a;
-  padding-bottom: 1.0em;
+  color: white;
 }
 .hero_wrap {
   height: 42.55319vw;
@@ -75,7 +92,7 @@ header {
   justify-content: center;
   position: relative;
   margin-bottom: 15px;
-  background-image: url(https://d1ia71hq4oe7pn.cloudfront.net/photo/75226761-1900px.jpg);
+  background-image: url(../images/cycling.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat no-repeat;
@@ -91,7 +108,7 @@ header {
   justify-content: center;
   position: relative;
   margin-bottom: 15px;
-  background-image: url(https://brookeroberts.webhostingforstudents.com/cas215/assignment10/photos/calliope_flowers.jpg);
+  background-image: url(../images/approve.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat no-repeat;
@@ -106,10 +123,10 @@ header {
   -ms-flex-pack: center;
   justify-content: center;
   position: relative;
-  margin-bottom: 1.5px;
-  background-image: url(https://brookeroberts.webhostingforstudents.com/cas215/assignment10/photos/calliope_in_hand.jpg);
-  background-size: auto;
-  background-position: left top;
+  margin-bottom: 15px;
+  background-image: url(../images/bike-cycling-trail-cyclist-160949_thumb.jpeg);
+  background-size: cover;
+  background-position: center top;
   background-repeat: no-repeat no-repeat;
 }
 .hero_wrap4 {
@@ -123,53 +140,44 @@ header {
   justify-content: center;
   position: relative;
   margin-bottom: 15px;
-  background-image: url(https://brookeroberts.webhostingforstudents.com/cas215/assignment10/photos/calliope_nest.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat no-repeat;
-}
-.hero_wrap5 {
-  height: 42.55319vw;
-  text-align: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  margin-bottom: 15px;
-  background-image: url(https://brookeroberts.webhostingforstudents.com/cas215/assignment10/photos/calliope_flowers.jpg);
+  background-image: url(../images/pexels-photo-87831.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat no-repeat;
 }
+.success p {
+  color: white;
+}
 main {
-  color: #ffc683;
+  color: black;
 }
 main h2 {
-  color: #ffe08e;
+  color: #fdb71f;
   margin-left: 8%;
   font-size: 1.25em;
   margin-bottom: .5em;
 }
 main section {
-  background-color: #ff981d;
+  background-color: #176c61;
   padding: 1em 0;
-  background: #e0520a;
-  background: -moz-linear-gradient(to bottom, #e0520a, #a62706);
-  background: -webkit-linear-gradient(to bottom, #e0520a, #a62706);
-  background: -o-linear-gradient(to bottom, #e0520a, #a62706);
-  background: -ms-linear-gradient(to bottom, #e0520a, #a62706);
-  background: linear-gradient(to bottom, #e0520a, #a62706);
+  background: #4edee5;
+  background: -moz-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -webkit-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -o-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -ms-linear-gradient(to bottom, #176c61, #4edee5);
+  background: linear-gradient(to bottom, #176c61, #4edee5);
 }
 main section:nth-child(odd) {
-  background: #a62706;
-  background: -moz-linear-gradient(to bottom, #e0520a, #a62706);
-  background: -webkit-linear-gradient(to bottom, #e0520a, #a62706);
-  background: -o-linear-gradient(to bottom, #e0520a, #a62706);
-  background: -ms-linear-gradient(to bottom, #e0520a, #a62706);
-  background: linear-gradient(to bottom, #e0520a, #a62706);
+  background: #176c61;
+  background: -moz-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -webkit-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -o-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -ms-linear-gradient(to bottom, #176c61, #4edee5);
+  background: linear-gradient(to bottom, #176c61, #4edee5);
+}
+.index {
+  color: #ed0208;
+  text-shadow: 1px 1px black;
 }
 main p {
   width: 84%;
@@ -178,38 +186,189 @@ main p {
   line-height: 1.35em;
 }
 main p a:link {
-  color: #ffe08e;
+  color: #fdb71f;
 }
 main p a:hover {
-  color: #b66300;
+  color: #1aacb3;
 }
 main p a:visited {
-  color: black;
+  color: gray;
+}
+main h3 {
+  color: #ed0208;
+  margin-left: 30px;
+  margin-right: auto;
+  line-height: 1.35em;
+  border-bottom: solid #fdb71f;
+  text-shadow: 1px 1px black;
+}
+main h4 {
+  color: #ed0208;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.35em;
+  border-bottom: solid #fdb71f;
+  text-shadow: 1px 1px black;
 }
 footer {
-  background-color: #ffe08e;
-  height: 5em;
-  width: 100%;
-  box-shadow: 0px 0px 7px #111111;
-  -moz-box-shadow: 0px 0px 7px #111111;
-  -webkit-box-shadow: 0px 0px 7px #111111;
-  -o-box-shadow: 0px 0px 7px #111111;
-  overflow: hidden;
-}
-footer p {
-  color: #e0520a;
+  background: -moz-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -webkit-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -o-linear-gradient(to bottom, #176c61, #4edee5);
+  background: -ms-linear-gradient(to bottom, #176c61, #4edee5);
+  background: linear-gradient(to bottom, #176c61, #4edee5);
+  background-color: #176c61;
+  font-size: 1em;
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 10px;
   text-align: center;
+  text-decoration: inherit;
+}
+section {
+  padding-top: 5em;
+}
+section ul {
+  font-size: .85em;
+  width: 100%;
+}
+section ul li {
+  display: inline-block;
+  width: 20%;
+}
+section ul li a:link {
+  color: #fdb71f;
+}
+section ul li a:visited {
+  color: white;
+}
+section ul li a:hover {
+  color: #4edee5;
+}
+p {
+  color: black;
+  text-align: left;
   padding-left: 1.5em;
   padding-top: .75em;
 }
-footer p a:link {
-  color: #e0520a;
+.section success_p p {
+  color: white;
 }
-footer p a:hover {
-  color: #7e2e06;
+/* Hamburger menu */
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  color: #ffffff;
+  border: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10;
+  padding: 10px 20px 0px 15px;
 }
-footer p a:visited {
-  color: black;
+.cross {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ffffff;
+  border: 0;
+  font-size: 3em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10;
+  padding: 15px 20px 0px 15px;
+}
+.menu {
+  z-index: 10;
+  font-weight: bold;
+  background: #f1f1f1;
+  position: absolute;
+  width: 60%;
+  top: 60px;
+  right: 0;
+  text-align: center;
+  font-size: 18px;
+}
+.menu ul {
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: block;
+  border-bottom: #ff0000 1px solid;
+  padding: 15px 0;
+}
+.menu li:hover {
+  display: block;
+  border-bottom: #b90504 1px solid;
+  padding: 15px 0;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #000000;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.menu ul li a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+.menu a .menu a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.tablet {
+  display: none;
+}
+#honeypot {
+  display: none;
+}
+#section slide {
+  padding: .5em .25em .25em .25em;
+}
+#section slide p {
+  font-size: 1em;
+  line-height: 1.15em;
+  padding: .25em 0;
+}
+#section slide dl {
+  padding: .25em .5em;
+}
+#section slide dl dt {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.15em;
+  padding: .25em 0 .15em 0;
+}
+#section slide dl dt strong {
+  border-bottom-color: rgba(40, 68, 59, 0.2);
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  color: #28443b;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  padding-top: .5em;
+}
+#section slide dl dd {
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-left: .5em;
+}
+#section slide dl ul {
+  padding: .15em 0;
+}
+#section slide dl ul li {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 1em;
 }
 /*
 
@@ -219,6 +378,9 @@ The following CSS affects all screen sizes larger than 480 pixels wide.
 
 */
 @media only screen and (min-width: 481px) {
+  header {
+    padding-top: 4em;
+  }
   header h1 {
     font-size: 3.5em;
     top: .75em;
@@ -229,10 +391,103 @@ The following CSS affects all screen sizes larger than 480 pixels wide.
     margin-left: auto;
     margin-right: auto;
   }
+  tr {
+    text-align: center;
+    padding: 10px;
+  }
+  td {
+    text-align: center;
+    padding: 5px;
+  }
+  footer {
+    display: block;
+    align-content: center;
+  }
   footer p {
     text-align: center;
     line-height: 3em;
-    color: #e0520a;
+    color: #ed0208;
+  }
+  .tablet {
+    display: inline-block;
+  }
+  .menu,
+  .cross,
+  .hamburger,
+  .mobile {
+    display: none !important;
+  }
+}
+/*-----------------------------------------/
+    /          Slide Show CSS                  /
+    /    adapted from W3 Schools tutorial      /
+    /-----------------------------------------*/
+.tablet-slide {
+  display: inline;
+}
+.mobile-slide {
+  display: none;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+  margin: auto;
+  max-width: 1000px;
+  padding-top: .5em;
+  position: relative;
+}
+/* Caption text */
+.text {
+  color: #132727;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  padding: 2px 12px;
+  text-align: center;
+  width: 100%;
+}
+/* The dots/bullets/indicators */
+#dotLine {
+  text-align: center;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #28443b;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #4e8473;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
   }
 }
 /*
@@ -257,13 +512,16 @@ The following CSS affects all screen sizes larger than 1024 pixels wide.
     margin-right: auto;
   }
   main h2,
-  main h3 {
+  main h3,
+  main h4 {
     margin-left: auto;
     margin-right: auto;
     width: 84%;
+    padding-left: 1em;
   }
   main h2,
   main h3,
+  main h4,
   main p,
   main img {
     max-width: 1025px;
@@ -273,6 +531,7 @@ The following CSS affects all screen sizes larger than 1024 pixels wide.
   }
   footer p {
     text-align: center;
-    color: #e0520a;
+    font-weight: bold;
+    color: #ed0208;
   }
 }

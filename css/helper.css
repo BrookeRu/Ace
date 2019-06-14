@@ -5,7 +5,7 @@ Programmer: Brooke Roberts
 */
 
 /* HELPER STYLESHEET */
- 
+
 /*
 
 BOX-SIZING CHANGE (box-sizing property)
@@ -28,7 +28,7 @@ do some subtraction.
 * {
     box-sizing: border-box;
 }
- 
+
 /*
 
 TEXT RENDERING (text-rendering property)
@@ -70,7 +70,9 @@ specify width and height attributes in the HTML.
 
 */
 
-img, embed, object {
+img,
+embed,
+object {
     max-width: 100%;
 }
 
@@ -99,7 +101,7 @@ not yet! The content property allows this.
 
 */
 
- @media print {
+@media print {
     a:after {
         content: " [' attr(href) '] ";
     }
